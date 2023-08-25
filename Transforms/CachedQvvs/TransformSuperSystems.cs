@@ -63,7 +63,7 @@ namespace Latios.Transforms.Systems
             EnableSystemSorting = true;
 
 #if !UNITY_DISABLE_MANAGED_COMPONENTS
-            GetOrCreateAndAddUnmanagedSystem<CompanionGameObjectUpdateTransformSystem>();
+            // GetOrCreateAndAddUnmanagedSystem<CompanionGameObjectUpdateTransformSystem>();
 #endif
         }
     }
